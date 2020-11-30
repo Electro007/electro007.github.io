@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./js/sa/sa.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e536ad57e2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cutive&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header-global">
+        <nav class="header-inner">
+            <div class="brand-container" onclick="brandClick()">
+                <p class="brand-name bold">Mathéo Auer</p>
+            </div>
+
+            <div class="follow-container">
+                <a href="https://www.instagram.com/matheoauer/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/auerm/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <nav class="side-menu level-1 right">
+        <ul class="slim" id="menuList">
+            <li><a href="#aboutMe">About me</a></li>
+            <li><a href="#mySkills">Skillset</a></li>
+            <li><a href="#proExp">Pro.</a></li>
+            <li><a href="#project">My work</a></li>
+            <li><a href="#hobby">Hobby</a></li>
+            <li><a href="#reference">References</a></li>
+        </ul>
+    </nav>
+    <div class="background-container">
+        <div class="grid-holder">
+            <div class="grid-part" style="left: 0px; border-color: rgb(219, 219, 219); background-color: rgb(241, 241, 241);"></div>
+            <div class="grid-part" style="left: 240px; border-color: rgb(219, 219, 219); background-color: rgb(241, 241, 241);"></div>
+            <div class="grid-part" style="left: 480px; border-color: rgb(219, 219, 219); background-color: rgb(241, 241, 241);"></div>
+            <div class="grid-part" style="left: 720px; border-color: rgb(219, 219, 219); background-color: rgb(241, 241, 241);"></div>
+            <div class="grid-part" style="left: 960px; border-color: rgb(219, 219, 219); background-color: rgb(241, 241, 241);"></div>
+            <div class="grid-part" style="left: 1200px; border-color: rgb(219, 219, 219); background-color: rgb(241, 241, 241);"></div>
+            <div class="grid-part" style="left: 1440px; border-color: rgb(219, 219, 219); background-color: rgb(241, 241, 241);"></div>
+            <div class="grid-part" style="left: 1680px; border-color: rgb(219, 219, 219); background-color: rgb(241, 241, 241);"></div>
+            <div class="grid-part" style="left: 1920px; border-color: rgb(219, 219, 219); background-color: rgb(241, 241, 241);"></div>
+            <div class="grid-part" style="left: 2160px; border-color: rgb(219, 219, 219); background-color: rgb(241, 241, 241);"></div>
+            <div class="grid-part" style="left: 2400px; border-color: rgb(219, 219, 219); background-color: rgb(241, 241, 241);"></div>
+            <div class="grid-part" style="left: 2640px; border-color: rgb(219, 219, 219); background-color: rgb(241, 241, 241);"></div>
+            <div class="grid-part" style="left: 2880px; border-color: rgb(219, 219, 219); background-color: rgb(241, 241, 241);"></div>
+            <div class="grid-part" style="left: 3120px; border-color: rgb(219, 219, 219); background-color: rgb(241, 241, 241);"></div>
+            <div class="grid-part" style="left: 3360px; border-color: rgb(219, 219, 219); background-color: rgb(241, 241, 241);"></div>
+            <div class="grid-part" style="left: 3600px; border-color: rgb(219, 219, 219); background-color: rgb(241, 241, 241);"></div>
+            <div class="grid-part" style="left: 3840px; border-color: rgb(219, 219, 219); background-color: rgb(241, 241, 241);"></div>
+        </div>
+    </div>
+    <div id="overlay-container" class="overlay">
+        <div class="relative">
+            <div class="overlay-info">
+                <div class="level-2 right size-1 clip">
+                    <h2 data-sa="fade" data-sa-direction="right" data-sa-arg="standalone" data-sa-delay="200">Contacts</h2>
+                    <h4 class="light" data-sa="fade" data-sa-direction="right" data-sa-arg="standalone" data-sa-delay="300">Mail</h4>
+                    <p data-sa="fade" data-sa-direction="right" data-sa-arg="standalone" data-sa-delay="400" class="type">matheo.auer [at] etu.univ-smb.fr</p>
+                    <p data-sa="fade" data-sa-direction="right" data-sa-arg="standalone" data-sa-delay="500" class="type">matheo [at] auer.im</p>
+                    <h4 class="light" data-sa="fade" data-sa-direction="right" data-sa-arg="standalone" data-sa-delay="600">Phone</h4>
+                    <p data-sa="fade" data-sa-direction="right" data-sa-arg="standalone" data-sa-delay="700" class="type">+33(0)78952119</p>
+
+
+
+                </div>
+                <div class="level-4 right size-1 clip">
+                    <a href="https://github.com/Electro007/files/blob/main/CV_Matheo.pdf?raw=true">Download CV</a>
+
+                </div>
+                <div class="level-4 ">
+                    <p>this website was made using ~2851 lines of custom codes</p>
+                    <p>made with <i style="color: #e53d34;" class="fa fa-heart outline" aria-hidden="true"></i> and <i class="fas fa-coffee"></i> by Mathéo Auer</p>
+                    <p>in ~120h</p>
+                    <p class="small italic">still in development</p>
+                </div>
+            </div>
+            <div class="background-grid">
+                <div class="grid-holder">
+                    <div class="grid-part" style="left: 0px;  "></div>
+                    <div class="grid-part" style="left: 240px;  "></div>
+                    <div class="grid-part" style="left: 480px;  "></div>
+                    <div class="grid-part" style="left: 720px;  "></div>
+                    <div class="grid-part" style="left: 960px; "></div>
+                    <div class="grid-part" style="left: 1200px;  "></div>
+                    <div class="grid-part" style="left: 1440px;  "></div>
+                    <div class="grid-part" style="left: 1680px;  "></div>
+                    <div class="grid-part" style="left: 1920px;  "></div>
+                    <div class="grid-part" style="left: 2160px;  "></div>
+                    <div class="grid-part" style="left: 2400px;  "></div>
+                    <div class="grid-part" style="left: 2640px;  "></div>
+                    <div class="grid-part" style="left: 2880px;  "></div>
+                    <div class="grid-part" style="left: 3120px;  "></div>
+                    <div class="grid-part" style="left: 3360px;  "></div>
+                    <div class="grid-part" style="left: 3600px;  "></div>
+                    <div class="grid-part" style="left: 3840px; "></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <section id="section-first">
+        <div id="intro" class="level-4 size-4 clip horizontal">
+            <div id="title-container">
+
+                <div id="title">
+                    <svg id="name" width="667.2" height="72.502" viewBox="0 0 667.2 71.202" xmlns="http://www.w3.org/2000/svg">
+                        <g id="svgGroup" stroke-linecap="round" fill-rule="evenodd" font-size="9pt" stroke="#000"
+                            stroke-width="0.5mm" fill="none" style="stroke:#000;stroke-width:0.25mm;fill:none">
+                            <path
+                                d="M 61 1.301 L 70.7 1.301 L 70.7 70.501 L 61.6 70.501 L 61.6 18.901 L 38.6 70.501 L 32.2 70.501 L 9.1 18.801 L 9.1 70.501 L 0 70.501 L 0 1.301 L 9.8 1.301 L 35.4 58.501 L 61 1.301 Z"
+                                id="0" vector-effect="non-scaling-stroke" />
+                            <path
+                                d="M 132.9 70.501 L 127.3 55.001 L 96.9 55.001 L 91.3 70.501 L 81.7 70.501 L 106.9 1.201 L 117.4 1.201 L 142.5 70.501 L 132.9 70.501 Z M 99.5 47.601 L 124.7 47.601 L 112.1 12.401 L 99.5 47.601 Z"
+                                id="1" vector-effect="non-scaling-stroke" />
+                            <path
+                                d="M 149.2 0.801 L 196.4 0.801 L 196.4 8.201 L 177.4 8.201 L 177.4 70.501 L 168.3 70.501 L 168.3 8.201 L 149.2 8.201 L 149.2 0.801 Z"
+                                id="2" vector-effect="non-scaling-stroke" />
+                            <path
+                                d="M 252.2 0.801 L 261.3 0.801 L 261.3 70.501 L 252.2 70.501 L 252.2 38.901 L 216.7 38.901 L 216.7 70.501 L 207.6 70.501 L 207.6 0.801 L 216.7 0.801 L 216.7 31.401 L 252.2 31.401 L 252.2 0.801 Z"
+                                id="3" vector-effect="non-scaling-stroke" />
+                            <path
+                                d="M 314.3 8.201 L 285.9 8.201 L 285.9 31.501 L 311.3 31.501 L 311.3 39.001 L 285.9 39.001 L 285.9 63.001 L 314.3 63.001 L 314.3 70.501 L 276.8 70.501 L 276.8 0.701 L 314.3 0.701 L 314.3 8.201 Z"
+                                id="4" vector-effect="non-scaling-stroke" />
+                            <path
+                                d="M 359.7 71.201 Q 350 71.201 342 66.651 Q 334 62.101 329.35 53.951 A 35.673 35.673 0 0 1 324.777 38.197 A 43.097 43.097 0 0 1 324.7 35.601 A 38.397 38.397 0 0 1 326.471 23.791 A 34.376 34.376 0 0 1 329.35 17.251 Q 334 9.101 342 4.551 A 35.11 35.11 0 0 1 359.397 0.002 A 41.191 41.191 0 0 1 359.7 0.001 A 36.428 36.428 0 0 1 372.591 2.251 A 34.19 34.19 0 0 1 377.5 4.551 Q 385.5 9.101 390.1 17.201 A 35.459 35.459 0 0 1 394.538 31.816 A 43.546 43.546 0 0 1 394.7 35.601 A 39.505 39.505 0 0 1 393.245 46.493 A 34.112 34.112 0 0 1 390.1 54.001 Q 385.5 62.101 377.5 66.651 Q 369.5 71.201 359.7 71.201 Z M 359.7 63.301 A 26.968 26.968 0 0 0 368.259 61.973 A 24.478 24.478 0 0 0 372.85 59.901 A 23.885 23.885 0 0 0 381.945 50.397 A 28.401 28.401 0 0 0 382.05 50.201 A 28.394 28.394 0 0 0 385.039 40.833 A 36.736 36.736 0 0 0 385.4 35.601 Q 385.4 27.201 382.05 20.951 A 24.615 24.615 0 0 0 375.728 13.244 A 23.727 23.727 0 0 0 372.9 11.301 A 24.897 24.897 0 0 0 362.196 8.002 A 30.534 30.534 0 0 0 359.7 7.901 A 27.575 27.575 0 0 0 351.881 8.977 A 23.988 23.988 0 0 0 346.5 11.301 A 24.068 24.068 0 0 0 337.455 20.757 A 28.555 28.555 0 0 0 337.35 20.951 A 27.768 27.768 0 0 0 334.471 29.603 A 36.728 36.728 0 0 0 334 35.601 A 34.855 34.855 0 0 0 334.824 43.344 A 27.536 27.536 0 0 0 337.35 50.201 A 24.448 24.448 0 0 0 343.619 57.89 A 23.564 23.564 0 0 0 346.55 59.901 A 25.32 25.32 0 0 0 358.232 63.266 A 30.438 30.438 0 0 0 359.7 63.301 Z"
+                                id="5" vector-effect="non-scaling-stroke" />
+                            <path
+                                d="M 480.2 70.501 L 474.6 55.001 L 444.2 55.001 L 438.6 70.501 L 429 70.501 L 454.2 1.201 L 464.7 1.201 L 489.8 70.501 L 480.2 70.501 Z M 446.8 47.601 L 472 47.601 L 459.4 12.401 L 446.8 47.601 Z"
+                                id="7" vector-effect="non-scaling-stroke" />
+                            <path
+                                d="M 500.6 0.801 L 509.7 0.801 L 509.7 44.901 A 30.22 30.22 0 0 0 510.101 50 Q 511.051 55.537 514.25 58.701 Q 518.665 63.068 526.424 63.197 A 28.6 28.6 0 0 0 526.9 63.201 A 22.887 22.887 0 0 0 532.099 62.645 Q 536.07 61.719 538.86 59.253 A 14.426 14.426 0 0 0 539.45 58.701 A 13.923 13.923 0 0 0 542.772 53.269 Q 543.539 51.059 543.827 48.343 A 32.692 32.692 0 0 0 544 44.901 L 544 0.801 L 553.1 0.801 L 553.1 44.801 Q 553.1 52.855 550.1 58.553 A 21.835 21.835 0 0 1 549.6 59.451 Q 546.1 65.401 540.15 68.301 A 28.775 28.775 0 0 1 530.409 71.02 A 35.209 35.209 0 0 1 526.8 71.201 A 32.504 32.504 0 0 1 518.728 70.232 A 27.617 27.617 0 0 1 513.45 68.301 Q 507.5 65.401 504.05 59.451 A 24.436 24.436 0 0 1 501.358 52.353 Q 500.695 49.313 500.612 45.811 A 42.681 42.681 0 0 1 500.6 44.801 L 500.6 0.801 Z"
+                                id="8" vector-effect="non-scaling-stroke" />
+                            <path
+                                d="M 605.8 8.201 L 577.4 8.201 L 577.4 31.501 L 602.8 31.501 L 602.8 39.001 L 577.4 39.001 L 577.4 63.001 L 605.8 63.001 L 605.8 70.501 L 568.3 70.501 L 568.3 0.701 L 605.8 0.701 L 605.8 8.201 Z"
+                                id="9" vector-effect="non-scaling-stroke" />
+                            <path
+                                d="M 667.2 70.501 L 656.3 70.501 L 639.7 42.001 L 628.7 42.001 L 628.7 70.501 L 619.6 70.501 L 619.6 0.801 L 642.1 0.801 A 38.436 38.436 0 0 1 648.06 1.238 Q 651.289 1.745 653.983 2.841 A 21.834 21.834 0 0 1 655.45 3.501 A 21.277 21.277 0 0 1 660.084 6.563 A 17.237 17.237 0 0 1 663.6 10.801 A 19.712 19.712 0 0 1 666.205 19.134 A 24.3 24.3 0 0 1 666.3 21.301 Q 666.3 28.501 662.15 34.001 A 18.025 18.025 0 0 1 655.183 39.505 A 26.282 26.282 0 0 1 649.7 41.301 L 667.2 70.501 Z M 628.7 8.301 L 628.7 34.701 L 642.1 34.701 Q 647.008 34.701 650.288 33.096 A 10.984 10.984 0 0 0 653.2 31.051 A 12.194 12.194 0 0 0 656.661 24.241 A 17.383 17.383 0 0 0 656.9 21.301 A 16.865 16.865 0 0 0 656.469 17.369 A 11.067 11.067 0 0 0 653.25 11.701 Q 650.454 9.097 645.399 8.487 A 27.608 27.608 0 0 0 642.1 8.301 L 628.7 8.301 Z"
+                                id="10" vector-effect="non-scaling-stroke" />
+                        </g>
+                    </svg>
+                </div>
+            </div>
+            <div class="subtitle">
+                <h1>CS Student</h1>
+                <h1>Programmer</h1>
+                <h1>VFX Amateur</h1>
+            </div>
+        </div>
+
+        <div class="level-4 left size-1 clip absolute">
+            <div id="firstImage" data-sa="fade" data-sa-direction="up" data-sa-arg="one-shot" data-sa-delay="3000" data-sa-target="#secondImage"><img class="gray" src="assets/me.jpg" alt="Profile pic">
+            </div>
+        </div>
+
+
+        <div class="level-5 left size-1 clip absolute" style="margin-top: 50px">
+            <div id="secondImage" data-sa="fade" data-sa-direction="right" data-sa-arg="standalone" data-sa-target="#lastImage"><img class="gray" src="assets/me2.jpg" alt="Profile pic">
+            </div>
+        </div>
+
+        <div class="clip level-4 size-1" style="margin-top: 300px">
+            <div id="lastImage" data-sa="" data-sa-direction="down" data-sa-arg="standalone"><img class="gray" src="assets/me3.jpg" alt="Profile pic" data-sa-target="#hi">
+            </div>
+        </div>
+
+        <div class="level-4 fit" id="hi" data-sa-arg="come" style="margin-top: 200px">
+            <h1 class="mid-big"><span data-sa="highlight-thick" data-sa-delay="1000">Hi !</span></h1>
+        </div>
+
+        <div class="level-4 size-2 clip" style="margin-top: 25px;">
+            <p>My name is <span class="bold">Mathéo Auer</span>. I'm a French Canadian currently studying <span data-sa="highlight">Computer Science</span> in Annecy, France. </p>
+            <p>I'm 20 years old and I <i style="color: #e53d34;" class="fa fa-heart outline" aria-hidden="true"></i> learning, coding and drinking coffee.
+            </p>
+            <p data-sa="fade" data-sa-direction="right" data-sa-arg="one-shot">On this website you will learn a lot about who I am, what I do and what I thrive for.</p>
+        </div>
+    </section>
+    <div class="level-4 size-1 intercalaire">
+        <div>
+            <div data-sa="fade" data-sa-delay="300" data-sa-arg="one-shot" class="vertical-line" style="width: 30px; margin:auto"></div>
+            <div data-sa="fade" data-sa-delay="600" data-sa-arg="one-shot" class="vertical-line" style="width: 100px; margin-top:30px; margin-bottom:30px; margin-left:auto; margin-right:auto;"></div>
+            <div data-sa="fade" data-sa-delay="900" data-sa-arg="one-shot" class="vertical-line" style="width: 30px; margin:auto;"></div>
+        </div>
+
+    </div>
+
+
+    <section id="aboutMe">
+        <div>
+            <div class="level-1 right size-2 right clip absolute horizontal" style="margin-top: 100px;">
+                <h2>I'm <span class="slim italic">fond</span> of <span class="bold">Black</span><span class="slim"> & </span><span class="bold outline transparent">White</span> </h2>
+                <p>I am someone who loves the philosophy of <span data-sa="highlight" class="slim italic">minimalism</span>. Black and white are colors wich for me what best embodies it. I have a great tendency to produce without straying from the main subject,
+                    while remaining creative and bringing new content.
+                </p>
+            </div>
+            <div class="level-4 absolute">
+                <h1 class="light italic">About this</h1>
+                <h1><span class="big" data-sa="highlight">PORTFOLIO</span></h1>
+                <h1 class="thin big absolute h-center v-center" style="top:-10%; left:40%;opacity:0.33;font-size:150px" data-scroll-speed="-16">&</h1>
+                <h1 style="margin-top:50px;"><span class="bold mid-big" data-sa="highlight">ME</span></h1>
+            </div>
+
+            <div class="level-5 left size-2 right clip justify horizontal-t" style="top: 100px;">
+                <h2><span data-sa="highlight" class="pixel mid">Pixel-Perfect</span></h2>
+                <p>As you have probably seen from the beginning, this portfolio is done with straight line and very well aligned. I love symmetry, the <span style="border: 1px solid rgb(219, 219, 219)">right angles</span>, and the perfection. This portfolio
+                    represents me as a whole.
+                </p>
+            </div>
+
+            <div class="level-4 size-2 justify horizontal-t" style="margin-top:240px;">
+                <h2>Experiences</h2>
+
+                <p>I am always in need of new and enriching experiences. I am a person who often seeks to discover and learn on my own. I think life's greatest moments and deepest connections are outside your comfort zone.
+                </p>
+
+                <p>That's why my motto is :</p>
+                <div class="adjust-1 h-center">
+                    <p><span class="outline transparent" style="font-size: larger;" data-sa="highlight">SEEK DISCOMFORT</span></p>
+                </div>
+
+
+
+            </div>
+        </div>
+        <div class="level-0 right size-1 extra" style="margin-top:940px;">
+            <svg data-scroll-speed="1 " xmlns="http://www.w3.org/2000/svg " viewBox="0 0 107.98 207.99 ">
+                <path
+                    d="M.51,207.49V181.74l35.61-31.37L.51,119V93.24h107v31.82H53.39l26.13,25.31-26.13,25.3h54.1v31.82Z "
+                    transform="translate(-0.01 -0.01) " />
+                <path d="M.51.51H30.16V43.84H41.62V5.35H66.38V43.84H77.84V.51h29.65V75.66H.51Z "
+                    transform="translate(-0.01 -0.01) " />
+            </svg>
+        </div>
+    </section>
+
+
+
+    <div class="level-4 size-1 intercalaire">
+        <div>
+            <div data-sa="fade" data-sa-delay="300" data-sa-arg="one-shot" class="h-line" style="width: 30px; margin:auto"></div>
+            <div data-sa="fade" data-sa-delay="600" data-sa-arg="one-shot" class="h-line" style="width: 100px; margin-top:30px; margin-bottom:30px; margin-left:auto; margin-right:auto;"></div>
+            <div data-sa="fade" data-sa-delay="900" data-sa-arg="one-shot" class="h-line" style="width: 30px; margin:auto;"></div>
+        </div>
+
+    </div>
+    <section id="mySkills">
+        <div class="level-4 fit">
+            <h1 class="light italic">My</h1>
+            <h1><span data-scroll-speed="1" class="bold big" data-sa="highlight">SKILLS</span></h1>
+        </div>
+        <div class="level-8 left size-1 extra box">
+            <svg data-scroll-speed="5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 378.38"><title>skill</title><path d="M71.26,357.46c8.71-2.67,14.31-10.14,14.31-18.74S82,324.06,74.51,324.06c-6.05,0-9.3,4.65-11.81,13.53l-3.24,11c-4.57,15.09-14,23.82-29.36,23.82C11.8,372.4,0,357.18,0,339a37.33,37.33,0,0,1,5.31-19.59A27.46,27.46,0,0,1,20.21,307l9.89,19.31c-5.46,2.25-8.56,6.62-8.56,12.4,0,5.21,2.8,9.58,7.67,9.58s7.53-3.8,9.45-10.57L41.75,327C46.62,310.11,56.8,300,73.48,300c21.09,0,34.52,17.9,34.52,38.9a45.46,45.46,0,0,1-6.93,24.52A33.74,33.74,0,0,1,81.74,377.9Z" transform="translate(0 0.48)"/><path d="M0,285.88v-24.1H58L0,226.55V199.49l50,30.44,58-33.26V225L63.41,249.66v12.12H108v24.1Z" transform="translate(0 0.48)"/><path d="M0,162.85H108V187H0Z" transform="translate(0 0.48)"/><path d="M0,143.41v-24.1H83.78V77.45H108v66Z" transform="translate(0 0.48)"/><path d="M0,65.48V41.38H83.78V-.48H108v66Z" transform="translate(0 0.48)"/></svg>
+        </div>
+        <div class="level-4 size-4 inlined fit" id="skillInlined">
+
+            <div class="right size-1 ">
+                <h2 id="test">Web</h2>
+                <div style="margin-top: 10px;">
+                    <h3>TECHNOLOGY</h3>
+                    <p class="fit" data-sa="highlight-thick" data-sa-delay="500">
+                        HTML/CSS : 85%
+                    </p>
+                    <p>JS : 70%</p>
+                    <p>
+                        PHP : 65%
+                    </p>
+                    <p>Laravel : 55%</p>
+
+
+                </div>
+                <div style="margin-top: 10px;">
+                    <h3 class="fit">CMS</h3>
+                    <p>
+                        Wordpress : 69%
+                    </p>
+                    <p>Squarespace : 55%</p>
+                </div>
+            </div>
+
+            <div class="right size-1 ">
+                <h2 id="test">System</h2>
+                <div style="margin-top: 10px;">
+                    <h3>OS</h3>
+                    <p>Linux : 60%</p>
+                    <p class="fit" data-sa="highlight-thick" data-sa-delay="900">Windows : 95%</p>
+                    <p>Android : 90%</p>
+                    <p>iOS : 65%</p>
+                </div>
+                <div style="margin-top: 10px;">
+                    <h3>DATA</h3>
+                    <p>SQL : 55%</p>
+                    <p>PLSQL : 50%</p>
+                </div>
+            </div>
+
+            <div class="right size-1 ">
+                <h2 id="test">Software</h2>
+                <div style="margin-top: 10px;">
+                    <h3>CONCEPTION</h3>
+                    <p>Agile : 85%</p>
+                    <p>Merise : 60%</p>
+                    <p>UML : 65%</p>
+                </div>
+                <div style="margin-top: 10px;">
+                    <h3>OOP</h3>
+                    <p>C/C++ : 45%</p>
+                    <p class="fit" data-sa="highlight-thick" data-sa-delay="700">C# : 75%</p>
+                    <p>Java : 60%</p>
+                    <p>Python : 50%</p>
+                </div>
+            </div>
+            <div class="right size-1 ">
+                <h2 id="test">General</h2>
+                <div style="margin-top: 10px;">
+                    <h3>SOFTWARE</h3>
+                    <p>
+                        Premiere Pro : 55%
+                    </p>
+                    <p class="fit" data-sa="highlight-thick" data-sa-delay="300">
+                        After Effect : 80%
+                    </p>
+                    <p>Illustrator : 65%</p>
+                    <p>Photoshop : 60%</p>
+                    <p>Office Suite : 85%
+                    </p>
+                </div>
+                <div data-sa="fade" data-sa-delay="3000" style="margin-top: 10px;" data-sa-target="#vfxArtistLabel">
+                    <h3 class="italic">.MISC</h3>
+                    <p>Plane Pilot : 45%</p>
+                    <p>DJ : 65%</p>
+                    <p class="fit" id="vfxArtistLabel" data-sa="highlight-thick" data-sa-delay="300" data-sa-arg="standalone">VFX Artist : 70%</p>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="level-1 right size-3 absolute horizontal-t">
+            <h2>Languages</h2>
+            <p>
+                Being both Canadian and French, languages have always played a role in my personal and professional life. Moreover, in the past years, I have had the chance to explore the world for 3 continuous years. All this cultural banding has given me a lot of perspective
+                and has taught me to appreciate the differences.
+            </p>
+        </div>
+
+
+        <div class="level-4 size-1 right horizontal-t" id="languagesList">
+            <h4>French : <span class="slim" data-sa="highlight-thick">Native Speaker</span></h4>
+            <h4>ENGLISH : <span class="slim">C1</span></h4>
+            <h4>SPANISH : <span class="slim">B2</span></h4>
+            <h4>Chinese : <span class="slim">A1</span></h4>
+        </div>
+
+        <div class="level-6 left size-3 absolute horizontal-t">
+            <h3>Certificate of Aeronautical Initiation
+                <h4><span class="light" data-sa="fade">2020</span></h4>
+            </h3>
+            <h3>Boating license
+                <h4><span class="light" data-sa="fade">2020</span></h4>
+            </h3>
+        </div>
+
+
+
+
+
+
+    </section>
+    <div class="level-4 size-1 intercalaire">
+        <div>
+            <div data-sa="fade" data-sa-delay="300" data-sa-arg="one-shot" class="h-line" style="width: 30px; margin:auto"></div>
+            <div data-sa="fade" data-sa-delay="600" data-sa-arg="one-shot" class="h-line" style="width: 100px; margin-top:30px; margin-bottom:30px; margin-left:auto; margin-right:auto;"></div>
+            <div data-sa="fade" data-sa-delay="900" data-sa-arg="one-shot" class="h-line" style="width: 30px; margin:auto;"></div>
+        </div>
+
+    </div>
+
+    <section id="proExp">
+        <div class="level-4 relative">
+            <h1 class="light italic">My</h1>
+            <h1><span class="bold mid-big" data-sa="highlight">PRO. EXPERIENCES</span></h1>
+        </div>
+
+
+
+
+
+        <div class="level-4 left size-2 clip">
+            <h2 data-sa="fade" data-sa-direction="left">2 YEAR UNIVERSITY DIPLOMA COMPUTER SCIENCE</h2>
+            <h4 class="light italic" style="text-align: right;">IUT Annecy</h4>
+            <h6 class="light italic">[2019-2021]</h6>
+            <p class="justify left" data-sa="fade" data-sa-direction="left" data-sa-delay="100" data-sa-target="#secondYear" data-sa-arg="one-shot">
+                I am currently in my <span id="secondYear" data-sa="highlight-thick" data-sa-delay="350" data-sa-target="#iutLearn" data-sa-arg="standalone">second year</span> at the University of Savoy Mont Blanc.
+            </p>
+            <p id="iutLearn" data-sa="fade" data-sa-direction="left" data-sa-arg="standalone" data-sa-delay="250">It's during this time that I learned a lot of knowledge. It has taught me a lot and brought me closer to the business world.
+            </p>
+        </div>
+
+        <div class="level-4 right size-2 clip">
+            <h2 data-sa="fade" data-sa-direction="right">FRENCH BACCALAUREAT S</h2>
+            <h4 class="light italic">Private High School Saint-François</h4>
+            <h6 class="light italic">[2018-2019]</h6>
+            <p class="justify" data-sa="fade" data-sa-direction="right" data-sa-delay="100" data-sa-target="#scienceOr" data-sa-arg="one-shot">
+                French diploma with the
+
+                <span id="scienceOr" data-sa="highlight-thick" data-sa-delay="350" data-sa-arg="standalone" data-sa-target="#fieldHuman">science-oriented</span> option on life and earth science an private High School.
+            </p>
+            <p id="fieldHuman" data-sa="fade" data-sa-direction="right" delay="500" data-sa-arg="standalone">It thaught me a lot on computer science in the field of human sciences.
+            </p>
+        </div>
+
+        <div class="level-0 size-1 extra box">
+            <svg data-scroll-speed="4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112.96 296"><title>pro</title><path class="a" d="M.52,248.78C.52,227.24,16,212.6,39.07,212.6c22.87,0,39,14.64,39,36.18V270.6h34.39v24.9H.52Zm24.63,4.39V270.6H53.3V253.17c0-10-5.28-15.23-14.07-15.23C30.75,237.94,25.15,243.21,25.15,253.17Z" transform="translate(-0.02 0)"/><path class="a" d="M112.48,117.39v28.27L61.62,175h50.86v24.61H.52v-39.4c0-21.82,11.67-39,34.39-39,16.63,0,27.35,9.23,31.83,23.43ZM48,175V161.48c0-8.79-4.16-15.09-12.47-15.09s-12.48,6.3-12.48,15.09V175Z" transform="translate(-0.02 0)"/><path class="a" d="M.52,55C.07,23.21,25.65.07,55.91.51,86.18.07,111.75,23.21,111.3,55c.45,31.79-25.12,55.08-55.39,54.64C25.65,110.07.07,86.78.52,55Zm24.37,0c0,18.31,14.22,29.15,31,29.15s31-10.84,31-29.15-14.22-29-31-29S24.89,36.83,24.89,55Z" transform="translate(-0.02 0)"/></svg>
+        </div>
+    </section>
+    <div class="level-4 size-1 intercalaire">
+        <div>
+            <div data-sa="fade" data-sa-delay="300" data-sa-arg="one-shot" class="h-line" style="width: 30px; margin:auto"></div>
+            <div data-sa="fade" data-sa-delay="600" data-sa-arg="one-shot" class="h-line" style="width: 100px; margin-top:30px; margin-bottom:30px; margin-left:auto; margin-right:auto;"></div>
+            <div data-sa="fade" data-sa-delay="900" data-sa-arg="one-shot" class="h-line" style="width: 30px; margin:auto;"></div>
+        </div>
+
+    </div>
+
+
+    <section id="project">
+        <div class="level-4 size-2 relative fit horizontal-t">
+            <h1 class="light italic">My</h1>
+            <h1 class="thin" style="margin-top:0;">awesome</h1>
+            <h1><span class="bold mid-big outline" data-sa="highlight">WORK</span></h1>
+        </div>
+
+        <div class="level-3 left size-2 justify clip absolute">
+            <h2 data-sa="fade" data-sa-direction="right" data-sa-arg="one-shot">Simple Planet</h2><span><h4 class="light">2020</h4></span>
+            <p>
+                Proof of concept of custom gravity field in the game engine Unity.
+            </p>
+            <div class="btn adjust-2 left " onclick="learnMore('#simple')">
+                <span class="noselect ">PLUS</span>
+            </div>
+        </div>
+
+
+
+        <div class="level-5 right size-2 justify clip absolute">
+
+            <h2 data-sa="fade" data-sa-direction="left" data-sa-arg="one-shot">Planet Encyclopedia</h2><span><h4 class="light">2019</h4>
+            <p>
+                Website done within 10 hours of teamwork in group of 5
+            </p>
+
+            <div class="btn" onclick="learnMore('#ency')">
+                <span class="noselect ">PLUS</span>
+        </div>
+        </div>
+
+        <div class="level-4 size-2 clip" style="margin-top: 350px;">
+
+            <h2 data-sa="fade" data-sa-direction="left" data-sa-arg="one-shot">TripAdvisor</h2><span><h4 class="light">2020</h4>
+            <p>
+                Website done within 10 hours of teamwork in group of 5. The Laravel Framework was imposed and we had to try using SCRUM method of workflow
+            </p>
+
+            <div class="btn h-center adjust-1" onclick="learnMore('#trip')">
+                <span class="noselect">PLUS</span>
+        </div>
+
+        </div>
+        <div class="level-8 left size-1 extra box" style="margin-top:900px">
+            <svg data-scroll-speed="4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91 398.13"><title>work</title><path d="M0,328.13,67.29,303,.89,278.38V265.25l90.11,34v7.13L23.2,331.63,91,356.88V364L.89,398V384.88l66.4-24.63L0,335.13Z" transform="translate(0 0.12)"/><path d="M0,214.25c-.37-27.25,21.13-46,45.38-45.63,24.25-.37,45.87,18.38,45.37,45.63.5,27.25-21.12,46.12-45.37,45.75C21.13,260.37-.37,241.5,0,214.25Zm11.63,0c0,20.62,15.87,33.37,33.75,33.37s33.75-12.75,33.75-33.37S63.38,181,45.38,181,11.63,193.5,11.63,214.25Z" transform="translate(0 0.12)"/><path d="M91,99.62,51.48,122.75v16.87H91v12H0v-35C0,100.5,9.62,88.37,25.74,88.37c13.52,0,22.62,8.38,25.09,21.25L91,85.62Zm-51,40V116.75c0-9.88-5.46-15.88-14.3-15.88s-14.3,6-14.3,15.88v22.87Z" transform="translate(0 0.12)"/><path d="M0,69V56.63H51.22L0,17V2.5L42.25,35.38,91-.12V14.63l-37.18,27v15H91V69Z" transform="translate(0 0.12)"/></svg>
+        </div>
+
+
+        <div class="background-container-in clip" style="margin-top: 100px;">
+
+            <div class="grid-holder-in">
+                <div class="grid-part-in " style="left: 0px; ">
+                </div>
+                <div class="grid-part-in " style="left: 240px; ">
+                </div>
+                <div class="grid-part-in " style="left: 480px; ">
+                </div>
+                <div class="grid-part-in " style="left: 720px; ">
+                </div>
+                <div class="grid-part-in " style="left: 960px; ">
+                </div>
+                <div class="grid-part-in " style="left: 1200px; ">
+                </div>
+                <div class="grid-part-in " style="left: 1440px; ">
+                </div>
+                <div class="grid-part-in " style="left: 1680px; ">
+                </div>
+                <div class="grid-part-in " style="left: 1920px; ">
+                </div>
+                <div class="grid-part-in " style="left: 2160px; ">
+                </div>
+                <div class="grid-part-in " style="left: 2400px; ">
+                </div>
+                <div class="grid-part-in " style="left: 2640px; ">
+                </div>
+                <div class="grid-part-in " style="left: 2880px; ">
+                </div>
+                <div class="grid-part-in " style="left: 3120px; ">
+                </div>
+                <div class="grid-part-in " style="left: 3360px; ">
+                </div>
+                <div class="grid-part-in " style="left: 3600px; ">
+                </div>
+                <div class="grid-part-in " style="left: 3840px; ">
+                </div>
+            </div>
+            <div class="content-in" id="simple" style="display: none">
+                <div class="level-2 right size-2 clip white absolute">
+                    <h2 class="big bold  white transparent outline">SIMPLE</h2>
+                    <h2 class="big bold white ">PLANET</h2>
+                    <h4 data-sa="highlight-w" data-sa-delay="500">A Mario Galaxy like proof of concept</h4>
+                </div>
+
+                <div class="level-4 right size-2 clip white">
+                    <video class="video media" id="video-impressionablecomplexcockatoo" alt="Walking on Outside of Box GIF" height="432" width="500" autoplay="" playsinline="" preload="auto" poster="https://thumbs.gfycat.com/ImpressionableComplexCockatoo-mobile.jpg" tabindex="-1"
+                        loop><source src="https://thumbs.gfycat.com/ImpressionableComplexCockatoo-mobile.mp4" type="video/mp4">
+                            <source src="https://giant.gfycat.com/ImpressionableComplexCockatoo.webm" type="video/webm">
+                                <source src="https://giant.gfycat.com/ImpressionableComplexCockatoo.mp4" type="video/mp4">
+                                    <source src="https://thumbs.gfycat.com/ImpressionableComplexCockatoo-mobile.mp4" type="video/mp4">
+                                    </video>
+                </div>
+                <div class="level-2 right size-2 clip white">
+
+                    <h2 data-sa="fade" data-sa-direction="left">An incredible adventure into 3D worlds</h2>
+                    <p>
+                        Gravity-Weighted-Forcefield based simulation
+                    </p>
+                    <p>Working on such complex and fun problem to solve with almost no guide-line has proven me that critical problem solving situation are subject to happen when you are not anticipating them.</p>
+                </div>
+            </div>
+
+            <div class="content-in" id="trip" style="display: none">
+
+
+                <div class="level-2 right size-2 clip white absolute">
+                    <h2 class="big bold  white transparent outline">Trip<span class="big bold white italic ">Advisor</span></h2>
+                    <h4 data-sa="fade" data-sa-delay="500">Cloned with an advanced search engine</h4>
+                </div>
+
+                <div class="level-6 left size-2 clip white">
+
+                    <h2>TripAdvisor</h2>
+
+                    <p>
+                        Tripadvisor is well known to have an amazing amount of search option. The goal was to achieve a similar search engine featuring location, adresses, stars and review from past customer.
+                    </p>
+                    <p>We had to recreate the website with all the basic functionality such as login, cookies, route and view managment</p>
+
+
+                </div>
+
+
+                <div class="level-4 right clip size-2" data-sa="fade" data-sa-direction="right" data-sa-arg="one-shot">
+                    <div class="dynamic-image">
+
+                        <div class="image-container">
+
+                            <img src="assets/tripadvisor.gif" class="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="content-in" id="ency" style="display: none">
+                <div class="level-2 right fit clip white absolute" style="z-index: 1;">
+                    <h2 class="big bold  white transparent outline">Planet</h2>
+                    <h2 class="big bold white ">Encyclopedia</h2>
+                    <h4 data-sa="fade" data-sa-delay="500">A journey among the Sol System
+                    </h4>
+                </div>
+
+                <div class="level-4 right size-2 clip white" style="z-index: 0;">
+                    <video class="video media" id="video-impressionablecomplexcockatoo" alt="Walking on Outside of Box GIF" height="432" width="500" autoplay="" playsinline="" preload="auto" poster="https://thumbs.gfycat.com/ImpressionableComplexCockatoo-mobile.jpg" tabindex="-1"
+                        loop><source src="https://upload.wikimedia.org/wikipedia/commons/f/ff/K2-18_Star_System_Video.webm" type="video/webm"></video>
+                </div>
+                <div class="level-6 left size-2 clip white justify">
+
+                    <h2 class="" data-sa="fade" data-sa-direction="left">Elegant <span class="slim" style="font-size: larger;">&</span> Practical</h2>
+                    <a class="fit" href="http://dut-info-annecy.fr/SystemeSolaire/" target="_blank">
+                        <h4 class="thin">Click here take a look</h4>
+                    </a>
+                    <h3>
+                        A inspiring journey
+                    </h3>
+                    <p>The solar system has always attracted me since I was little. When the proposal for this project during the web-maker week I immediately accepted.</p>
+                </div>
+                <div class="level-2 right size-2 clip white">
+
+                    <h2 data-sa="fade" data-sa-direction="left">Several challenges to be met</h2>
+                    <h3>
+                        Quality content in an fixed time
+                    </h3>
+                    <p>A project with so much editorial content on a large number of planets and asteroids necessarily involves a database. It is in a team of 5 that we built a website about the planets and space object within our system. </p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <div class="level-4 size-1 intercalaire">
+        <div>
+            <div data-sa="fade" data-sa-delay="300" data-sa-arg="one-shot" class="h-line" style="width: 30px; margin:auto"></div>
+            <div data-sa="fade" data-sa-delay="600" data-sa-arg="one-shot" class="h-line" style="width: 100px; margin-top:30px; margin-bottom:30px; margin-left:auto; margin-right:auto;"></div>
+            <div data-sa="fade" data-sa-delay="900" data-sa-arg="one-shot" class="h-line" style="width: 30px; margin:auto;"></div>
+        </div>
+
+    </div>
+    <section id="hobby">
+        <div class="relative fit clip">
+            <h1 class="light italic level-4 right">What</h1>
+            <h1 class="bold mid-big outline level-4 right"><span data-sa="highlight" data-sa-arg="one-shot">I DO</span></h1>
+            <h1 class="light italic level-4 left">for</h1>
+            <h1 class="bold mid-big outline level-4 left"><span data-sa="highlight" data-sa-arg="one-shot">FUN</span></h1>
+        </div>
+        <div class="level-2 right size-1 absolute horizontal">
+            <h2>Skiing</h2>
+            <p>Skiing is one of my most beloved activity all year around.
+            </p>
+            <p>The Alps near Annecy provide a huge play area for my favorite activity. This one in particular train you to be reactive, to predict, adapt and overcome difficulties.</p>
+            <p>This is what I thrive for :</p>
+            <div class="clip">
+                <p><span class="outline transparent mid" data-sa="highlight">CHALLENGES</span></p>
+            </div>
+        </div>
+
+        <div class="level-6 left size-2 horizontal">
+            <h2>Video Editing</h2>
+            <p>When snow isn't there, I love creating and editing video out of small one taken from the internet</p>
+            <p>VFX as always intringued me and especially with computing power that is becoming more and more democratized and that facilitates the access.</p>
+        </div>
+        <div class="level-5 right size-1 horizontal absolute" style="margin-top: 0 ;">
+            <h2>Video games</h2>
+            <p>
+                Video games being virtual items means that they can be manipulated and customized in numerous ways. Personally It's a way to relax and relieve some stress.
+            </p>
+        </div>
+        <div class="level-3 right size-2 horizontal-t" style="margin-top: 0px;">
+            <h2>Music</h2>
+            <p>I'm really in love with music. In my sparse free time, I produce music either being helped by a computer or by piano by myself. I'm currently on my way to learn the electric guitar.
+            </p>
+        </div>
+    </section>
+    <div class="level-4 size-1 intercalaire">
+        <div>
+            <div data-sa="fade" data-sa-delay="300" data-sa-arg="one-shot" class="h-line" style="width: 30px; margin:auto"></div>
+            <div data-sa="fade" data-sa-delay="600" data-sa-arg="one-shot" class="h-line" style="width: 100px; margin-top:30px; margin-bottom:30px; margin-left:auto; margin-right:auto;"></div>
+            <div data-sa="fade" data-sa-delay="900" data-sa-arg="one-shot" class="h-line" style="width: 30px; margin:auto;"></div>
+        </div>
+
+    </div>
+
+    <section id="reference">
+        <div class="level-4">
+            <h1 class="light italic">Some</h1>
+            <h1><span class="big" data-sa="highlight">REFERENCE</span></h1>
+            <h1 class="thin big absolute h-center v-center" style="top:-300%; left:48%;opacity:0.33;font-size:150px" data-scroll-speed="-10">&</h1>
+            <h1 style="margin-top:50px;"><span class="bold mid-big" data-sa="highlight">CONTACT</span></h1>
+        </div>
+
+        <div class="level-4 size-4 inlined fit" id="referenceInlined" style="margin-top:250px;">
+
+            <div class="right size-2">
+                <h2 class="mid">Stéphanie Bouchon</h2>
+                <p>at University of Savoy - Annecy, France</p>
+                <h4 class="slim">International Coordinator for the ICT Department</h4>
+                <h4 class="slim">Teacher in English for Professional Communication</h4>
+
+                <h5>Mail : <a href="mailto:stephanie.bouchon@univ-smb.fr"><span class="slim">stephanie.bouchon[at]univ-smb.fr</span></a></h5>
+            </div>
+            <div class="adjust-2 left size-2">
+                <h2 class="mid">Luc Damas</h2>
+                <p>at University of Savoy - Annecy, France</p>
+                <h4 class="slim">Associate professor</h4>
+
+                <h5>Mail : <a href="mailto:luc.damas@univ-smb.fr"><span class="slim">luc.damas[at]univ-smb.fr</span></a></h5>
+            </div>
+
+
+
+        </div>
+        <div class="level-4 outline fit transparent">
+            <h1 class="big bold">DOWNLOAD MY <span data-sa="highlight" data-sa-delay="2000">RESUME</span> </h1>
+        </div>
+
+        <div class="level-4 fit">
+
+            <a href="https://github.com/Electro007/files/blob/main/CV_Matheo.pdf?raw=true">
+                <div id="" class="btn">
+                    <span class="noselect">CV</span>
+                </div>
+            </a>
+        </div>
+
+
+
+    </section>
+
+    <script src="js/app.js "></script>
+    <script src="js/sa/sa.js "></script>
+</body>
+
+</html>
