@@ -14,6 +14,7 @@ const transitionEnd = transitionEndEventName();
 let moreinfo = document.querySelector(".background-container-in")
 let gridcont = moreinfo.querySelector(".grid-holder-in")
 let buttons = document.querySelectorAll(".btn")
+let age = document.querySelectorAll(".myage")
 
 window.addEventListener("DOMContentLoaded", (event) => {
     window.scrollTo(0, 0)
@@ -32,7 +33,6 @@ window.addEventListener("DOMContentLoaded", (event) => {
             button.addEventListener("mouseenter", function(e) {
                 button.children[0].classList.add("btn-active")
                 button.children[0].innerHTML = "+"
-                    //firstchild dont work I don't know why and I don't have the time left for debug
             })
             button.addEventListener("mouseleave", function(e) {
                 button.children[0].classList.remove("btn-active")
@@ -40,16 +40,14 @@ window.addEventListener("DOMContentLoaded", (event) => {
             })
         }
     })
+    let now = new Date();
+    let myage = (now.getFullYear()) - 2000;
+    age.forEach((age) => {
+        age.innerHTML = myage
+    })
 
 
 })
-
-
-
-
-
-
-
 
 function brandClick() {
 
@@ -93,8 +91,6 @@ function brandClick() {
 }
 
 
-function dumbfunc() {};
-
 function learnMore(target) {
 
     childs = moreinfo.querySelectorAll(".content-in")
@@ -102,7 +98,6 @@ function learnMore(target) {
     let alreadyDisplayed = false;
     let childOn = tar;
     childs.forEach(function(child) {
-        //Si il est en "block" ET que j'ai pas cliqué dessus (donc celui que j'ai laissé derière moi)
         if (child.style.display != 'none') {
             if (tar !== child) {
                 childOn = child;
@@ -123,7 +118,7 @@ function learnMore(target) {
             }
 
 
-            learnMore(target); //Here is my Recursive bitch. je suis fier oui. Mon état mental se dégrade beaucoup trop rapidement ptn
+            learnMore(target);
 
             moreinfo.ontransitionend = null;
         }
@@ -134,8 +129,6 @@ function learnMore(target) {
                     child.style.display = 'none';
                 })
             }
-            // window.scrollTo(0, moreinfo.offsetTop); //More clean than scrollToView but removed because it cause a bug when switching 
-
             moreinfo.ontransitionend = null;
         }
     }
@@ -176,8 +169,6 @@ function transitionEndEventName() {
     //TODO: throw 'TransitionEnd event is not supported in this browser'; 
 }
 
-//Scrolling
-// Pure javascript was causing bug so I switched to Jquery even tho j'aimerais tout faire qu'avec du vanilla
 $.fn.moveIt = function() {
     var $window = $(window);
     var instances = [];
